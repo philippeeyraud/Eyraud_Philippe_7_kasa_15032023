@@ -7,7 +7,7 @@ import Navigation from "../../Utils/Navigation";
     <header className="d-flex flex-row align-items-center px-20 text">
       <div className="flex-fill d-flex flex-row align-items-center text mt-20">
         <h1>
-          <img src={Logo} alt="home, immobilier" />
+          <img src={Logo} alt="location immobilier" />
         </h1>
       </div>
       <Navigation />
