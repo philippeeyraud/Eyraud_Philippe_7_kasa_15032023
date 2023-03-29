@@ -1,0 +1,21 @@
+.list_apartment {
+  height: 300px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.list_apartment img {
+  width: 95%;
+  border-radius: 20px;
+  height: 220px;
+  width: 280px;
+  padding: 10px;
+}
+
+.list_apartment h3 {
+  padding: 20px;
+}
+
+.container {
+  width: 30%;
+}

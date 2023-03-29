@@ -5,8 +5,7 @@ import logo from "../../assets/Footer.png";
 function Footer() {
   return (
     <footer className="footer">
-      <img src={logo} alt="location immobilier" />
-  
+      <img className= "height-2" src={logo} alt="location immobilier" />
     </footer>
   );
 }

@@ -1,11 +1,6 @@
-.home-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
 .home-container {
-  margin: 30px;
-  background-color: 'colors.backgroundLight';
-  padding: 60px 90px;
-  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 50px;
 }

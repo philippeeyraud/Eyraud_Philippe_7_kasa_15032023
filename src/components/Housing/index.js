@@ -1,17 +1,14 @@
-import logo from "../../assets/card.png"
+import { Link } from "react-router-dom";
+import './index.scss'
 
-
-function Housing() {
-  
-
-  
-    return (
-    <section className="alignflf text ">
-      <article className=" align p-50 ">
-      
-      
-      </article>
-    </section>
+function Housing({ id, title, cover }) {
+  return (
+    <article className ="container">
+      <Link to={`/${id}`} className="list_apartment ">
+        <img src={cover} alt={title} />
+        <h3>{title}</h3>
+      </Link>
+    </article>
   );
 }
 

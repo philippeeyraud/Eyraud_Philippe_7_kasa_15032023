@@ -9,8 +9,9 @@ img.banner_banner {
 }
 
 .banner-logoacc {
-  max-width: 100%;
-  height: 70px;
+  width: 100%;
+  position: relative;
+  left: 100px;
 }
 
 .text-banner {

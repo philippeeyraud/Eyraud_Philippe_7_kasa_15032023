@@ -6,7 +6,11 @@ function Banner() {
   return (
     <section className="alignflf text ">
       <banner className=" align p-50 ">
-        <img className="banner_banner " src={Logo} alt="location immobilier" />
+        <img
+          className="banner-logoacc  "
+          src={Logo}
+          alt="location immobilier"
+        />
         <p>
           {" "}
           <img className=" text-banner" src={text} alt="location immobilier" />
