@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Banner from "../../components/Banner";
-import Housing from "../../components/Housing"
+import Card from "../../components/Card"
 import list from "../../Data/index"
 import './index.scss'
 function Home() {
@@ -14,7 +14,7 @@ function Home() {
         <main className="home-container">
           {list.map((Data) => {
             return (
-              <Housing
+              <Card
                 key={Data.id}
                 id={Data.id}
                 title={Data.title}

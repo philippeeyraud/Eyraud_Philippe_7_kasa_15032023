@@ -1,4 +1,4 @@
-
+import "./index.scss"
 import Logo from "../../assets/logo.png";
 import '../../assets/styles/base.scss/base.scss'
 
@@ -12,10 +12,10 @@ function Header() {
       </div>
       <div>
         <ul className="align text ">
-          <li className="mr-20 ">
-            <router-link className="--danger-1"to="/">Accueil</router-link>
+          <li className="mr-20 headcolor ">
+            <router-link to="/">Accueil</router-link>
           </li>
-          <li className="mr-20 ">
+          <li className="mr-20 headcolor">
             <router-link to="/about">A propos</router-link>
           </li>
         </ul>

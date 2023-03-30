@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './index.scss'
 
-function Housing({ id, title, cover }) {
+function Card({ id, title, cover }) {
   return (
     <article className ="container">
       <Link to={`/${id}`} className="list_apartment ">
@@ -12,4 +12,4 @@ function Housing({ id, title, cover }) {
   );
 }
 
-export default Housing;
+export default Card;
