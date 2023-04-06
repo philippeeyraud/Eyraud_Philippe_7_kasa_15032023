@@ -4,8 +4,8 @@
   --font-family: "Roboto", sans-serif;
   --primary-1: #3498db;
   --primary-2: #2980b9;
-  --danger-1: #e74c3c;
-  --danger-2: #c0392b;
+  --title-1: #e74c3c;
+  --title-2: #c0392b;
   --success-1: #2ecc71;
   --success-2: #27ae60;
   --gray-1: #f6f6f6;
@@ -64,7 +64,7 @@ body {
 
 //flex
 .align {
-  @include align;
+    @include align;
 }
 
 .alignflf {

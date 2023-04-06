@@ -1,8 +1,9 @@
-import "./index.scss"
+import "./index.scss";
 import Logo from "../../assets/logo.png";
-import '../../assets/styles/base.scss/base.scss'
+import "../../assets/styles/base.scss/base.scss";
 
 function Header() {
+  const currentPage = window.location.pathname;
   return (
     <header className="align px-20 ">
       <div className="alignflf mt-20">
@@ -11,11 +12,16 @@ function Header() {
         </h1>
       </div>
       <div>
-        <ul className="align text ">
-          <li className="mr-20 headcolor ">
+        <ul className="dir_item ">
+          <li className={currentPage === "/" ? "dir_item_active" : "dir_item"}>
             <router-link to="/">Accueil</router-link>
           </li>
-          <li className="mr-20 headcolor">
+
+          <li
+            className={
+              currentPage === "/about" ? "dir_item_active" : "dir_item"
+            }
+          >
             <router-link to="/about">A propos</router-link>
           </li>
         </ul>

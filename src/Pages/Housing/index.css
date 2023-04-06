@@ -1,0 +1,13 @@
+.housing_box {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  color: var(--title-1);
+  width: 100%;
+}
+
+.housing_box_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
