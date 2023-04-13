@@ -1,18 +1,59 @@
 .housing {
-    &_box {
-  display: flex;
-  flex-direction: row;
-  margin-left: 20px;
+  &_box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content:space-between;
+    align-items:flex-end;
+max-width: 95%;
+    color: var(--title-1);
+  
 
-        color: var(--title-1);
-        width: 100%;
+    &_text {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
 
-        &_text {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-          
-            
+      &_host {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: flex-end;
+        align-items: center;
+        position:absolute;
+        bottom: 85px;
+
+        &_name {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          flex-wrap: wrap;
         }
+      }
     }
+  }
+}
+.picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+button {
+  display: inline;
+  padding: 5px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  color: var(--gray-1);
+  background-color: var(--title-1);
+
+  &:hover {
+    box-shadow: 0 2px 8px rgb(0, 0, 0);
+  }
+}
+.stars{
+  width:30px;
 }

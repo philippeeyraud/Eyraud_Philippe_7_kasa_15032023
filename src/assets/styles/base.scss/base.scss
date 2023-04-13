@@ -66,12 +66,21 @@ body {
 .align {
     @include align;
 }
-
+.alignc{
+    @include alignc;
+}
 .alignflf {
   @include align;
   @include align-flf;
 }
+.alignstars {
+ @include align-stars;
 
+
+}
+.flex {
+  display:flex;
+}
 .flex-column {
   flex-direction: column;
 }
@@ -115,8 +124,9 @@ body {
   margin-bottom: 10px;
 }
 
-.mr-10 {
-  margin-right: 10px;
+
+.ml-30 {
+  margin-left: 30px;
 }
 
 .ml-20 {
