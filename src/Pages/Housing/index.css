@@ -20,8 +20,8 @@
   gap: 10px;
   justify-content: flex-end;
   align-items: center;
-  position: absolute;
-  bottom: 85px;
+  position: relative;
+  bottom: 40px;
 }
 
 .housing_box_text_host_name {
@@ -29,6 +29,18 @@
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
+}
+
+.housing_box_text_host_breakdown {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  margin: 30px;
+  width: 95%;
+}
+
+.housing_box_text_host_breakdown_item {
+  width: 60%;
 }
 
 .picture {

@@ -1,0 +1,31 @@
+.breakdown {
+    background-color: var(--gray-3);
+    ;
+    max-width: 1000px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0 auto;
+
+    &_title {
+
+        justify-content: space-between;
+        background-color: var(--title-1);
+        color: var(--gray-3);
+        border-radius: 10px;
+        font-weight: 500;
+        padding: 10px 15px;
+        cursor: pointer;
+
+      
+        .arrow_up {
+            transition: all 0.3s ease-in-out;
+            transform: rotate(0deg);
+        }
+
+        .arrow_down {
+            transition: all 0.3s ease-in-out;
+            transform: rotate(180deg);
+        }
+    }
+
+}

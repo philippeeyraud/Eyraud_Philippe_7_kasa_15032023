@@ -1,6 +1,7 @@
 import "./index.scss";
 import Logo from "../../assets/logo.png";
 import "../../assets/styles/base.scss/base.scss";
+import { Link } from "react-router-dom";
 
 function Header() {
   const currentPage = window.location.pathname;
@@ -13,8 +14,12 @@ function Header() {
       </div>
       <div>
         <ul className="dir_item ">
-          <li className={currentPage === "/" ? "dir_item_active" : "dir_item"}>
-            <router-link to="/">Accueil</router-link>
+          <li
+            className={
+              currentPage === "/" ? "dir_item_active" : "dir_item"
+            }
+          >
+            <Link to="/">Accueil</Link>
           </li>
 
           <li
@@ -22,7 +27,7 @@ function Header() {
               currentPage === "/about" ? "dir_item_active" : "dir_item"
             }
           >
-            <router-link to="/about">A propos</router-link>
+            <Link to="/about">A propos</Link>
           </li>
         </ul>
       </div>

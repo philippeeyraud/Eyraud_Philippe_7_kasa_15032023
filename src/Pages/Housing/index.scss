@@ -3,11 +3,11 @@
     display: flex;
     flex-direction: row;
     margin-left: 20px;
-    justify-content:space-between;
-    align-items:flex-end;
-max-width: 95%;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 95%;
     color: var(--title-1);
-  
+
 
     &_text {
       display: flex;
@@ -20,8 +20,8 @@ max-width: 95%;
         gap: 10px;
         justify-content: flex-end;
         align-items: center;
-        position:absolute;
-        bottom: 85px;
+        position: relative;
+        bottom: 40px;
 
         &_name {
           display: flex;
@@ -29,10 +29,23 @@ max-width: 95%;
           align-items: flex-start;
           flex-wrap: wrap;
         }
+
+        &_breakdown {
+          display: flex;
+          justify-content: space-between;
+          gap: 70px;
+          margin: 30px;
+          width: 95%;
+
+          &_item {
+            width: 60%;
+          }
+        }
       }
     }
   }
 }
+
 .picture {
   width: 50px;
   height: 50px;
@@ -40,6 +53,7 @@ max-width: 95%;
   object-position: center;
   border-radius: 50%;
 }
+
 button {
   display: inline;
   padding: 5px 15px;
@@ -53,7 +67,9 @@ button {
   &:hover {
     box-shadow: 0 2px 8px rgb(0, 0, 0);
   }
+
 }
-.stars{
-  width:30px;
+
+.stars {
+  width: 30px;
 }
