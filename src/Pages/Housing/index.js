@@ -1,5 +1,4 @@
 import Header from "../../components/Header/index";
-
 import Footer from "../../components/Footer";
 import Slide from "../../components/Carousel";
 import { useState, useEffect } from "react";
@@ -23,7 +22,7 @@ function Housing() {
   const rating = DataHousing[0].rating;
   const name = DataHousing[0].host.name.split(" ");
   const description = DataHousing[0].description;
-  const equipements = DataHousing[0].equipement;
+  const equipments = DataHousing[0].equipments;
   return (
     <div>
       <Header />
@@ -71,8 +70,9 @@ function Housing() {
           <div className="housing_box_text_host_breakdown_item">
             <Collapse title={"Description"} text={description} />
           </div>
+          
           <div className="housing_box_text_host_breakdown_item">
-            <Collapse title={"Equipements"} text={equipements} />
+            <Collapse title={"Equipements"} text={equipments} />
           </div>
         </div>
       </main>

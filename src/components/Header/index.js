@@ -3,8 +3,9 @@ import Logo from "../../assets/logo.png";
 import "../../assets/styles/base.scss/base.scss";
 import { Link } from "react-router-dom";
 
-function Header() {
-  const currentPage = window.location.pathname;
+
+function Header(props) {
+  const currentPath = window.location.pathname;
   return (
     <header className="align px-20 ">
       <div className="alignflf mt-20">
@@ -16,7 +17,7 @@ function Header() {
         <ul className="dir_item ">
           <li
             className={
-              currentPage === "/" ? "dir_item_active" : "dir_item"
+              currentPath === "/" ? "dir_item_active" : "dir_item"
             }
           >
             <Link to="/">Accueil</Link>
@@ -24,13 +25,14 @@ function Header() {
 
           <li
             className={
-              currentPage === "/about" ? "dir_item_active" : "dir_item"
+              currentPath === "/about" ? "dir_item_active" : "dir_item"
             }
           >
             <Link to="/about">A propos</Link>
           </li>
         </ul>
       </div>
+   
     </header>
   );
 }

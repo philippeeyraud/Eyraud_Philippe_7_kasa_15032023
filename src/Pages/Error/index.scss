@@ -1,0 +1,14 @@
+@import "../../Utils/mixins";
+
+.errorpage {
+  margin: 0 auto;
+  color: var(--title-1);
+
+  &_news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 150px;
+  }
+}

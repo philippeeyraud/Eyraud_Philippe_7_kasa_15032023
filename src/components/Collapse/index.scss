@@ -27,5 +27,11 @@
             transform: rotate(180deg);
         }
     }
+&_text {
+visibility:visible;
+&_out{
+visibility:hidden
+}
+}
 
 }

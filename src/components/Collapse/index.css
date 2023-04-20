@@ -25,3 +25,11 @@
   transition: all 0.3s ease-in-out;
   transform: rotate(180deg);
 }
+
+.breakdown_text {
+  visibility: visible;
+}
+
+.breakdown_text_out {
+  visibility: hidden;
+}

@@ -1,24 +1,31 @@
-import './index.scss'
-import Logo from "../../assets/bannerAccueil.png";
-import text from "../../assets/textAccueil.png";
+import "./index.scss";
+import React from "react";
+import { useState, useEffect } from "react";
+import bannerAcc from "./../../assets/bannerAcc.png";
+import bannerAbout from "./../../assets/bannerAbout.png";
 
-function Banner() {
-   
-  return (
-    <section className="alignflf text ">
-      <banner className=" align p-50 ">
-        <img
-          className="banner-logoacc "
-          src={Logo}
-          alt="location immobilier"
-        />
-        <p>
-         
-          <img className=" text-banner" src={text} alt="location immobilier" />
-        </p>
-      </banner>
-    </section>
-  );
+
+function Banner(props) {
+  const [bannerImage, setBannerImage] = useState(bannerAcc);
+  
+  useEffect(() => {
+    if (props.currentPath === "/about") {
+      setBannerImage(bannerAbout);
+    } else {
+      setBannerImage(bannerAcc);
+    }
+  },[props.currentPath]);
+
+return (
+<section className='banner_banner'>
+  <img src={bannerImage} alt='Banner'/>
+</section>
+
+);
 }
+
+
+  
+ 
 
 export default Banner;

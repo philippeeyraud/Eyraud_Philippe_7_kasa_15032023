@@ -1,5 +1,6 @@
 @import "../../../Utils/mixins";
 
+
 :root {
   --font-family: "Roboto", sans-serif;
   --primary-1: #3498db;
@@ -152,6 +153,9 @@ body {
 
 .m-30 {
   margin: 30px;
+}
+.mt-30 {
+  margin-top: 30px;
 }
 
 .height-1 {

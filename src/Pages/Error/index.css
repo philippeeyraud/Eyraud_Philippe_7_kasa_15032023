@@ -1,0 +1,12 @@
+.errorpage {
+  margin: 0 auto;
+  color: var(--title-1);
+}
+
+.errorpage_news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 150px;
+}
