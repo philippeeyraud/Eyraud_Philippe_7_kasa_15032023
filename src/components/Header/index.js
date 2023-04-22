@@ -4,8 +4,12 @@ import "../../assets/styles/base.scss/base.scss";
 import { Link } from "react-router-dom";
 
 
+//<Banner currentPath={props.currentPath} />;
+
+
 function Header(props) {
-  const currentPath = window.location.pathname;
+     
+  const currentPath = window.location.path;
   return (
     <header className="align px-20 ">
       <div className="alignflf mt-20">
@@ -13,13 +17,9 @@ function Header(props) {
           <img src={Logo} alt="location immobilier" />
         </h1>
       </div>
-      <div>
+      <nav>
         <ul className="dir_item ">
-          <li
-            className={
-              currentPath === "/" ? "dir_item_active" : "dir_item"
-            }
-          >
+          <li className={currentPath === "/" ? "dir_item_active" : "dir_item"}>
             <Link to="/">Accueil</Link>
           </li>
 
@@ -31,8 +31,8 @@ function Header(props) {
             <Link to="/about">A propos</Link>
           </li>
         </ul>
-      </div>
-   
+      </nav>
+  
     </header>
   );
 }

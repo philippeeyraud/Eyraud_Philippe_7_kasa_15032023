@@ -1,31 +1,18 @@
 import "./index.scss";
-import React from "react";
-import { useState, useEffect } from "react";
-import bannerAcc from "./../../assets/bannerAcc.png";
-import bannerAbout from "./../../assets/bannerAbout.png";
+
 
 
 function Banner(props) {
-  const [bannerImage, setBannerImage] = useState(bannerAcc);
-  
-  useEffect(() => {
-    if (props.currentPath === "/about") {
-      setBannerImage(bannerAbout);
-    } else {
-      setBannerImage(bannerAcc);
-    }
-  },[props.currentPath]);
-
-return (
-<section className='banner_banner'>
-  <img src={bannerImage} alt='Banner'/>
-</section>
-
-);
-}
-
-
-  
  
 
-export default Banner;
+  return(
+    <div className="banner ">
+      <img className="banner_img" src={props.bannerImage} alt="Banner" />
+      <p className="banner_text-banner">
+        <img src={props} alt="text" />
+     </p>
+    </div>
+ 
+  );
+}
+export default Banner
