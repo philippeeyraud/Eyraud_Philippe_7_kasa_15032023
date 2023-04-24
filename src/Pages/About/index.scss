@@ -1,8 +1,18 @@
-
-    
-.banner-about{
+.banner-about {
   border-radius: 20px;
   position: relative;
   left: 320px;
 
+};
+
+.listing {
+  width: 95%;
+  margin: 0 auto;
+
+  &_collapse {
+    margin: 40px auto;
+
+  }
 }
+
+

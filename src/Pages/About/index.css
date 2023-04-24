@@ -3,3 +3,12 @@
   position: relative;
   left: 320px;
 }
+
+.listing {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.listing_collapse {
+  margin: 40px auto;
+}
