@@ -1,17 +1,20 @@
 
 
-.dir_item {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      color: var(--title-1);
-      font-size: 30px;
-     font-family: 'montserat';
-     margin-right: 15px;
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--title-1);
+  font-size: 30px;
+  margin-right: 20px;
 
-      &_active {
-            text-decoration: underline solid;
-            margin-right: 20px;
-           
-      }
+.item_active {
+     text-decoration: underline solid  #FF6060;
+       
+    margin-right: 20px;
+  }
 }
+
+
+
+

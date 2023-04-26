@@ -1,9 +1,11 @@
 .banner {
-  width: 100%;
+  max-width: 95%;
   position: relative;
   left: 320px;
   border-radius: 30px;
   height: 200px;
+  filter: brightness(65%);
+  background-size: cover;
 }
 
 .banner_img {
@@ -14,6 +16,6 @@
 .banner_text-banner {
   position: relative;
   height: 40px;
-  left: 300px;
+  left: 600px;
   bottom: 140px;
 }

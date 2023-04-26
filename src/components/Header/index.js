@@ -1,38 +1,34 @@
 import "./index.scss";
 import Logo from "../../assets/logo.png";
-import "../../assets/styles/base.scss/base.scss";
 import { Link } from "react-router-dom";
+import "../../assets/styles/base.scss/base.scss";
 
 
-//<Banner currentPath={props.currentPath} />;
-
-
-function Header(props) {
+function Header() {
      
-  const currentPath = window.location.path;
+  const pathName = window.location.path;
   return (
     <header className="align px-20 ">
       <div className="alignflf mt-20">
         <h1>
-          <img src={Logo} alt="location immobilier" />
+          <img src={Logo} alt="location appartements" />
         </h1>
       </div>
       <nav>
-        <ul className="dir_item ">
-          <li className={currentPath === "/" ? "dir_item_active" : "dir_item"}>
+        <ul className="item ">
+          <li className= {pathName === "/" ? "item_active" : "item"}>
             <Link to="/">Accueil</Link>
           </li>
 
           <li
-            className={
-              currentPath === "/about" ? "dir_item_active" : "dir_item"
+            className= {
+             pathName === "/about" ? "item_active" : "item"
             }
           >
-            <Link to="/about">A propos</Link>
+            <Link to="/about"> A propos</Link>
           </li>
         </ul>
       </nav>
-  
     </header>
   );
 }

@@ -40,6 +40,7 @@ ul {
   padding: 0;
 }
 
+
 .home-wrapper {
   display: flex;
   justify-content: center;
@@ -55,16 +56,11 @@ ul {
 a {
   color: var(--title-1);
   text-decoration:none;
+  margin-right: 15px;
+  
 }
 
-body {
-  min-height: 100vh;
-  padding: 0;
-  margin: 0;
-  font-family: var(--font-family);
-  color: var(--text-color);
-  background-color: var(--gray-1);
-}
+
 
 //flex
 .align {

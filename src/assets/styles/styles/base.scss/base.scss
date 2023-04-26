@@ -1,3 +1,6 @@
+@import "../../../Utils/mixins";
+
+
 :root {
   --font-family: "Roboto", sans-serif;
   --primary-1: #3498db;
@@ -11,16 +14,18 @@
   --gray-3: #f7f7f7;
   --text-color: #444;
   --text-primary-color: #ffffff;
+
   --border: 1px solid var(var(--gray-2));
   --border-radius: 4px;
 }
 
+//reset
 *, ::before, ::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat';
-  font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
 }
 
 h1,
@@ -44,47 +49,42 @@ ul {
   margin: 30px;
   background-color: "colors.backgroundLight";
   padding: 60px 90px;
-  max-width: 1200px;
+   max-width: 1200px;
 }
 
 a {
   color: var(--title-1);
-  text-decoration: none;
-  margin-right: 15px;
+  text-decoration:none;
 }
 
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--gray-1);
+}
+
+//flex
 .align {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    @include align;
 }
-
-.alignc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.alignc{
+    @include alignc;
 }
-
 .alignflf {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex: 1 1 auto;
+  @include align;
+  @include align-flf;
 }
-
 .alignstars {
-  display: flex;
-  flex-direction: row;
-  flex: fill;
-}
+ @include align-stars;
 
+
+}
 .flex {
-  display: flex;
+  display:flex;
 }
-
 .flex-column {
   flex-direction: column;
 }
@@ -100,6 +100,8 @@ a {
 .flex-fill {
   flex: 1 1 auto;
 }
+
+// padding
 
 .p-10 {
   padding: 10px;
@@ -126,14 +128,13 @@ a {
   margin-bottom: 10px;
 }
 
+
 .ml-30 {
   margin-left: 30px;
 }
-
 .ml-10 {
   margin-left: 10px;
 }
-
 .ml-20 {
   margin-left: 20px;
 }
@@ -153,7 +154,6 @@ a {
 .m-30 {
   margin: 30px;
 }
-
 .mt-30 {
   margin-top: 30px;
 }
@@ -166,6 +166,7 @@ a {
   height: 200px;
 }
 
+//buttons
 .btn {
   padding: 8px 15px;
   border: 0;
@@ -177,28 +178,28 @@ a {
 .btn-primary {
   background-color: var(--primary-1);
   color: var(--text-primary-color);
-}
 
-.btn-primary:hover {
-  background-color: var(--primary-2);
+  &:hover {
+    background-color: var(--primary-2);
+  }
 }
 
 .btn-danger {
   background-color: var(--danger-1);
   color: var(--text-primary-color);
-}
 
-.btn-danger:hover {
-  background-color: var(--danger-2);
+  &:hover {
+    background-color: var(--danger-2);
+  }
 }
 
 .btn-success {
   background-color: var(--success-1);
   color: var(--text-primary-color);
-}
 
-.btn-success:hover {
-  background-color: var(--success-2);
+  &:hover {
+    background-color: var(--success-2);
+  }
 }
 
 .textnone {
