@@ -16,13 +16,17 @@ function Header() {
       </div>
       <nav>
         <ul className="item ">
-          <li className= {pathName === "/" ? "item_active" : "item"}>
+          <li
+            className={
+              pathName === "/" ? "item_article_active" : "item_article"
+            }
+          >
             <Link to="/">Accueil</Link>
           </li>
 
           <li
-            className= {
-             pathName === "/about" ? "item_active" : "item"
+            className={
+              pathName === "/about" ? "item_article_active" : "item_article"
             }
           >
             <Link to="/about"> A propos</Link>
