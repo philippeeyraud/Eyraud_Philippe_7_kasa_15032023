@@ -1,6 +1,16 @@
+main {
+  padding-left: 33px;
+  padding-right: 2px;
+}
+
 .home-container {
   display: flex;
   flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 10%;
+  justify-content: center;
   position: relative;
-  left: 350px;
+  left: 1.5%;
+  background-color: #F7F7F7;
+  max-width: 91%;
 }

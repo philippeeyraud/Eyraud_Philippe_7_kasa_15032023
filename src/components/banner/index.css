@@ -1,21 +1,21 @@
 .banner {
   max-width: 95%;
   position: relative;
-  left: 320px;
+  top: 35px;
+  left: 6%;
   border-radius: 30px;
-  height: 200px;
-  filter: brightness(65%);
+  height: 86px;
+  filter: brightness(70%);
   background-size: cover;
 }
 
 .banner_img {
   border-radius: 20px;
-  max-width: 100%;
+  max-width: 95%;
 }
 
 .banner_text-banner {
   position: relative;
-  height: 40px;
-  left: 600px;
-  bottom: 140px;
+  left: 25%;
+  top: 25px;
 }

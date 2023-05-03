@@ -1,12 +1,19 @@
+nav a.active {
+  border-bottom: 1px solid #FF6060;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 6%;
+  margin-left: 5%;
+}
+
 .item {
   display: flex;
-  flex-direction: row;
   align-items: center;
   color: #FF6060;
   font-size: 30px;
-  margin-right: 20px;
-}
-
-.item_article_active {
-  text-decoration: underline solid;
+  gap: 30px;
 }

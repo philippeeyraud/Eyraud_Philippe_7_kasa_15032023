@@ -1,16 +1,31 @@
 @import "./../../assets/styles/styles/variables";
 
+
+
+
+
+.navigation {
+  
+
+}
+
+nav a.active {
+  border-bottom: 1px solid $color-secondary;
+
+}
+
+.head {
+  display: flex;
+  align-items: center;
+ justify-content:space-between;
+margin-right: 6%;
+margin-left: 5%;
+}
+
 .item {
   display: flex;
-  flex-direction: row;
   align-items: center;
   color: $color-secondary;
   font-size: 30px;
-  margin-right: 20px;
-
-  &_article {
-    &_active {
-      text-decoration: underline solid ;
-    }
-  }
+  gap: 30px;
 }

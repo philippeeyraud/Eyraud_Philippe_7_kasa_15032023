@@ -1,7 +1,7 @@
 .list_apartment {
   position: relative;
   width: 30%;
-  height: 340PX;
+  height: 300px;
   border-radius: 10px;
   cursor: pointer;
   overflow: hidden;
@@ -16,7 +16,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .list_apartment:hover {

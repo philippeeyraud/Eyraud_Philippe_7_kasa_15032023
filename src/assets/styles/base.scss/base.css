@@ -25,7 +25,7 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 0;
+  margin: 20px;
 }
 
 ul {
@@ -48,7 +48,6 @@ ul {
 a {
   color: var(--title-1);
   text-decoration: none;
-  margin-right: 15px;
 }
 
 .align {
@@ -124,8 +123,20 @@ a {
   margin-bottom: 10px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .ml-30 {
   margin-left: 30px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.ml-50 {
+  margin-left: 60px;
 }
 
 .ml-10 {
@@ -136,6 +147,14 @@ a {
   margin-left: 20px;
 }
 
+.ml-30 {
+  margin-left: 30px;
+}
+
+.ml-70 {
+  margin-left: 70px;
+}
+
 .m-20 {
   margin: 20px;
 }
@@ -144,12 +163,33 @@ a {
   margin-right: 20px;
 }
 
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+C
+.mr-50 {
+  margin-right: 50px;
+}
+
+.mr-60 {
+  margin-right: 60px;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
 
 .m-30 {
   margin: 30px;
+}
+
+.mt-10 {
+  margin-top: 10px;
 }
 
 .mt-30 {

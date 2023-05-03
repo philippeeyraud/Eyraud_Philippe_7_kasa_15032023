@@ -1,11 +1,13 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Banner from "../../components/Banner";
-import Card from "../../components/Card"
-import list from "../../Data/index"
+import Card from "../../components/Card";
+import list from "../../Data/index";
 import bannerAcc from "./../../assets/bannerAcc.png";
 import textAccueil from "./../../assets/textAccueil.png";
-import './index.scss'
+import "./index.scss";
+import "./../../assets/styles/base.scss/base.scss";
+
 function Home() {
   return (
     <div>
@@ -14,17 +16,19 @@ function Home() {
       <p className="banner_text-banner">
         <img src={textAccueil} alt="text" />
       </p>
-      <main className="home-container">
-        {list.map((Data) => {
-          return (
-            <Card
-              key={Data.id}
-              id={Data.id}
-              title={Data.title}
-              cover={Data.cover}
-            />
-          );
-        })}
+      <main className="main">
+        <div className="home-container">
+          {list.map((Data) => {
+            return (
+              <Card
+                key={Data.id}
+                id={Data.id}
+                title={Data.title}
+                cover={Data.cover}
+              />
+            );
+          })}
+        </div>
       </main>
       <Footer />
     </div>
