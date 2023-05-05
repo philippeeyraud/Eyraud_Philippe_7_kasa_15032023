@@ -4,10 +4,7 @@
 
 
 
-.navigation {
-  
 
-}
 
 nav a.active {
   border-bottom: 1px solid $color-secondary;
@@ -15,11 +12,15 @@ nav a.active {
 }
 
 .head {
-  display: flex;
-  align-items: center;
- justify-content:space-between;
+ display: flex;
+align-items: center;
+justify-content:space-between;
 margin-right: 6%;
-margin-left: 5%;
+margin-left: 6%;
+margin-top:20px;
+@media screen and (max-width: 700px){
+            margin:5%;
+        }
 }
 
 .item {
@@ -28,4 +29,13 @@ margin-left: 5%;
   color: $color-secondary;
   font-size: 30px;
   gap: 30px;
-}
+  @media screen and (max-width: 700px){
+           width: 400px;
+           margin-left: 90px;
+           gap: 10px;
+           text-transform: uppercase;
+        }
+}  
+
+
+    

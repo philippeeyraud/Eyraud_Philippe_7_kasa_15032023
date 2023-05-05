@@ -5,13 +5,14 @@
   justify-content: space-between;
   align-items: flex-end;
   max-width: 95%;
-  color: var(--title-1);
+  color: #FF6060;
 }
 
 .housing_box_text {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  color: #FF6060;
 }
 
 .housing_box_text_host {
@@ -35,12 +36,12 @@
   display: flex;
   justify-content: space-between;
   gap: 70px;
-  margin: 30px;
+  margin: 19px;
   width: 95%;
 }
 
 .housing_box_text_host_breakdown_item {
-  width: 40%;
+  width: 49%;
 }
 
 .picture {
@@ -68,4 +69,8 @@ button:hover {
 
 .stars {
   width: 30px;
+}
+
+h1 {
+  line-height: 51px;
 }

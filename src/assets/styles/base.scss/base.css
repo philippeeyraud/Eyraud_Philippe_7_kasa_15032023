@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap");
 :root {
   --font-family: "Montserrat";
   --title-1: #e74c3c;
@@ -19,13 +20,6 @@
   box-sizing: border-box;
   font-family: 'Montserrat';
   font-style: normal;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  margin: 20px;
 }
 
 ul {
@@ -171,7 +165,6 @@ a {
   margin-right: 40px;
 }
 
-C
 .mr-50 {
   margin-right: 50px;
 }

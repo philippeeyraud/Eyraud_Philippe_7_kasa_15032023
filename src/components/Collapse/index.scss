@@ -1,22 +1,19 @@
+@import "./../../assets/styles/variables";
 .breakdown {
-    background-color: var(--gray-3);
-    ;
     max-width: 1000px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin: 0 auto;
 
     &_title {
-
         justify-content: space-between;
-        background-color: var(--title-1);
+        background-color: $color-secondary;
         color: var(--gray-3);
         border-radius: 10px;
         font-weight: 500;
         padding: 10px 15px;
         cursor: pointer;
 
-      
         .arrow_up {
             transition: all 0.3s ease-in-out;
             transform: rotate(0deg);
@@ -27,11 +24,13 @@
             transform: rotate(180deg);
         }
     }
-&_text {
-visibility:visible;
-&_out{
-visibility:hidden
-}
-}
-
+    &_text {
+        visibility: visible;
+        color: $color-secondary;
+        padding: 10px;
+        background-color: $color-tertiary;
+        &_out {
+            visibility: hidden;
+        }
+    }
 }

@@ -7,7 +7,14 @@ nav a.active {
   align-items: center;
   justify-content: space-between;
   margin-right: 6%;
-  margin-left: 5%;
+  margin-left: 6%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .head {
+    margin: 5%;
+  }
 }
 
 .item {
@@ -16,4 +23,13 @@ nav a.active {
   color: #FF6060;
   font-size: 30px;
   gap: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .item {
+    width: 400px;
+    margin-left: 90px;
+    gap: 10px;
+    text-transform: uppercase;
+  }
 }

@@ -1,5 +1,4 @@
 .breakdown {
-  background-color: var(--gray-3);
   max-width: 1000px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -8,7 +7,7 @@
 
 .breakdown_title {
   justify-content: space-between;
-  background-color: var(--title-1);
+  background-color: #FF6060;
   color: var(--gray-3);
   border-radius: 10px;
   font-weight: 500;
@@ -28,6 +27,9 @@
 
 .breakdown_text {
   visibility: visible;
+  color: #FF6060;
+  padding: 10px;
+  background-color: #F7F7F7;
 }
 
 .breakdown_text_out {

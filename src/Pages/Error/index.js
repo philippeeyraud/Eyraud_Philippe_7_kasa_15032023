@@ -15,7 +15,7 @@ function Error() {
             <h1>
               <img src={Four} alt="error" />
             </h1>
-            <p>
+            <p className= "texterror">
               <img src={text404} alt="texterror" />
             </p>
             <Link className="returnAccueil mt-30" to="/">
