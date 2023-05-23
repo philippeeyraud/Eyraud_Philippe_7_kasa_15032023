@@ -1,18 +1,19 @@
 @import "./../../assets/styles/variables";
 .banner-about {
-  border-radius: 20px;
+  border-radius: 10px;
   position: relative;
   left: 320px;
 
 };
 
 .listing {
-  padding-top: 20px;
-  width: 95%;
+  
+  width: 70%;
   margin: 0 auto;
-
+  font-weight:400px;
+  
   &_collapse {
-    margin: 40px auto;
+    margin-bottom: 20px;
 
   }
 }

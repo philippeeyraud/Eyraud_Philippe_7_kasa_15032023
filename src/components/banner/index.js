@@ -8,7 +8,7 @@ function Banner(props) {
     <div className="banner ">
       <img className="banner_img" src={props.bannerImage} alt="Banner" />
       <div className= "banner_text">
-        <p className="text-image">{props.bannerTitle}</p>
+        <p className="text">{props.bannerTitle}</p>
       </div>
     </div>
   );

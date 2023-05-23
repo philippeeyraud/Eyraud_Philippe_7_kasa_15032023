@@ -1,41 +1,38 @@
 @import "./../../assets/styles/variables";
 .banner {
-display: flex;
-justify-content: center;
-align-items: center;
-
- 
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
   border-radius: 30px;
-
   background-size: cover;
+
   &_img {
     border-radius: 20px;
     filter: brightness(0.7);
     width: 87vw;
+     height: 223px;
+    
     @media screen and (max-width: 700px) {
-      width: 600px;
-      height: 200px;
-      
+       width: 600px;
+     
     }
   }
   &_text {
-display: flex;
-justify-content: center;
-align-items: center;
-position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color:#f7f7f7;
+    font-size:35px;
+    font-weight:500;
+
+    @media screen and (max-width: 700px) {
+      width:217px;
+      height:48px;
+     
+    }
   }
 }
 
-.text-image {
- 
-  color: $color-primary;
-  font-size: 48px;
-  font-weight: 500; 
- @media screen and (min-width: 1450px) {
-    
-     bottom: 170px;
-     left: 630px;
 
-    }
-}

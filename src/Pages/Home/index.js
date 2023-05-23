@@ -14,14 +14,14 @@ function Home() {
     <div>
       <Header />
       <Banner bannerImage={bannerAcc} bannerTitle={bannerText} />
-     <main>
+     <main className="container">
         <div className="home-container">
           {list.map((Data) => {
             return (
               <Card
                 key={Data.id}
                 id={Data.id}
-                title={Data.title.split("")}
+                title={Data.title}
                 cover={Data.cover}
               />
             );

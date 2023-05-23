@@ -1,6 +1,6 @@
-main {
-  padding-left: 20px;
-  padding-right: 20px;
+.container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .home-container {
@@ -9,7 +9,7 @@ main {
   gap: 25px;
   justify-content: center;
   background-color: #f7f7f7;
-  max-width: 91%;
+  max-width: 88%;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 30px;
