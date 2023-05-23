@@ -9,8 +9,15 @@
   gap: 25px;
   justify-content: center;
   background-color: #f7f7f7;
-  max-width: 88%;
+  max-width: 86%;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .home-container {
+    justify-content: space-evenly;
+    background-color: transparent;
+  }
 }

@@ -16,7 +16,7 @@ function Error() {
               <img src={Four} alt="error" />
             </h1>
             <p className= "texterror">
-              <img src={text404} alt="texterror" />
+              Oups!La page que vous demandez n'existe pas.
             </p>
             <Link className="returnAccueil mt-30" to="/">
               <img src={RetourAccueil} alt="text retour" />

@@ -10,13 +10,13 @@
 .banner_img {
   border-radius: 20px;
   filter: brightness(0.7);
-  width: 87vw;
+  width: 85vw;
+  height: 223px;
 }
 
 @media screen and (max-width: 700px) {
   .banner_img {
-    width: 600px;
-    height: 200px;
+    width: 80%;
   }
 }
 
@@ -25,18 +25,13 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-}
-
-.text-image {
-  width: 100%;
   color: #f7f7f7;
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 500;
 }
 
-@media screen and (min-width: 1450px) {
-  .text-image {
-    bottom: 170px;
-    left: 630px;
+@media screen and (max-width: 700px) {
+  .banner_text {
+    width: 60%;
   }
 }

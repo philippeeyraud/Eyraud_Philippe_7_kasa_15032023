@@ -6,14 +6,14 @@ nav a.active {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 6%;
-  margin-left: 6%;
+  padding-left: 7.5%;
+  padding-right: 8%;
   margin-top: 20px;
 }
 
 @media screen and (max-width: 700px) {
   .head {
-    margin: 5%;
+    justify-content: space-evenly;
   }
 }
 
@@ -21,15 +21,14 @@ nav a.active {
   display: flex;
   align-items: center;
   color: #FF6060;
-  font-size: 30px;
+  font-size: 20px;
   gap: 30px;
 }
 
 @media screen and (max-width: 700px) {
   .item {
-    width: 400px;
-    margin-left: 90px;
-    gap: 10px;
+    gap: 20px;
     text-transform: uppercase;
+    width: 100%;
   }
 }

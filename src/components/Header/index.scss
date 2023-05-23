@@ -1,27 +1,24 @@
 @import "./../../assets/styles/styles/variables";
 
-
-
-
-
-
-
 nav a.active {
   border-bottom: 1px solid $color-secondary;
-
 }
 
 .head {
-display: flex;
-align-items: center;
-justify-content:space-between;
-margin-right: 7%;
-margin-left: 7%;
-margin-top:20px;
-@media screen and (max-width: 700px){
+  display: flex;
+  align-items: center;
+ justify-content:space-between;
 
-        }
+  padding-left: 7.5%;
+  padding-right: 8%;
+  margin-top: 20px;
+ @media screen and (max-width: 700px) {
+    justify-content: space-evenly;
+  }
 }
+img { @media screen and (max-width: 700px) {
+    
+  }}
 
 .item {
   display: flex;
@@ -29,13 +26,9 @@ margin-top:20px;
   color: $color-secondary;
   font-size: 20px;
   gap: 30px;
-  @media screen and (max-width: 700px){
-          
-          
-           gap: 10px;
-           text-transform: uppercase;
-        }
-}  
-
-
-    
+  @media screen and (max-width: 700px) {
+    gap: 20px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}

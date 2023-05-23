@@ -1,6 +1,6 @@
 @import "./../../assets/styles/variables";
 .container {
-display: flex;
+  display: flex;
   justify-content: space-around;
 }
 
@@ -8,13 +8,16 @@ display: flex;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
- 
+
   justify-content: center;
- 
 
   background-color: #f7f7f7;
-  max-width: 88%;
-   padding-left: 30px;
+  max-width: 86%;
+  padding-left: 30px;
   padding-right: 30px;
   border-radius: 30px;
+    @media screen and (max-width: 700px) {
+      justify-content:space-evenly;
+        background-color:transparent;
+  }
 }

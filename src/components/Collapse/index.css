@@ -1,15 +1,16 @@
 .breakdown {
-  max-width: 1000px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  max-width: 100%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
   margin: 0 auto;
 }
 
 .breakdown_title {
   justify-content: space-between;
   background-color: #FF6060;
+  font-size: 20px;
   color: var(--gray-3);
-  border-radius: 10px;
+  border-radius: 5px;
   font-weight: 500;
   padding: 10px 15px;
   cursor: pointer;
@@ -28,10 +29,14 @@
 .breakdown_text {
   visibility: visible;
   color: #FF6060;
-  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  font-size: 20px;
   background-color: #F7F7F7;
 }
 
 .breakdown_text_out {
   visibility: hidden;
+  height: 20px;
 }

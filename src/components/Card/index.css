@@ -9,6 +9,12 @@
   transition: box-shadow 0.15s ease-in-out;
 }
 
+@media screen and (max-width: 700px) {
+  .list_apartment {
+    width: 100%;
+  }
+}
+
 .list_apartment::after {
   content: "";
   z-index: 10;
