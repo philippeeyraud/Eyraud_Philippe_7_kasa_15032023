@@ -1,4 +1,5 @@
-.list_apartment {display: flex;
+.list_apartment {
+  display: flex;
   position: relative;
   width: 30%;
   height: 300px;
@@ -6,10 +7,14 @@
   cursor: pointer;
   overflow: hidden;
   transition: box-shadow 0.15s ease-in-out;
-   @media screen and (max-width: 700px) {
-     width: 100%;
-    }
-   
+    @media screen and (min-width:700px) and (max-width: 1399px)  {
+    width: 45%;
+  }
+  @media screen and (max-width: 947px) {
+    width: 100%;
+  }
+
+
   &::after {
     content: "";
     z-index: 10;
@@ -36,18 +41,36 @@
     width: 100%;
     padding: 10px;
   }
- 
+
   h3 {
+    z-index: 1;
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+    right: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-primary-color);
+    margin-right: 40px;
+    width:70%;
+    margin-bottom: 5px;
+       @media screen and (max-width: 465px) {
+     font-size: 13px;
+  }
+  }
+  h4 {
     z-index: 1;
     position: absolute;
     bottom: 20px;
     left: 20px;
     right: 20px;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 18px;
     color: var(--text-primary-color);
     margin-right: 40px;
-    width: 59%;
-
+    width:70%;
+           @media screen and (max-width: 465px) {
+     font-size: 13px;
+  }
   }
 }

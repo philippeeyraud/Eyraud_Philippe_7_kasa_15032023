@@ -3,7 +3,6 @@ import {Link }from 'react-router-dom'
 import './index.scss'
 import Four from './../../assets/Four.png'
 import RetourAccueil from './../../assets/RetourAccueil.png'
-import text404 from "./../../assets/text404.png";
 
 
 function Error() {

@@ -22,6 +22,7 @@ function Home() {
                 key={Data.id}
                 id={Data.id}
                 title={Data.title}
+                titleOne={Data.titleOne}
                 cover={Data.cover}
               />
             );
