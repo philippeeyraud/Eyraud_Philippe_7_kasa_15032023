@@ -16,6 +16,12 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 700px) {
+  .breakdown_title {
+    padding: 8px 13px;
+  }
+}
+
 .breakdown_title .arrow_up {
   transition: all 0.3s ease-in-out;
   transform: rotate(0deg);

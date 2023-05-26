@@ -10,6 +10,12 @@
   margin: 30px auto;
 }
 
+@media screen and (max-width: 700px) {
+  .carousel {
+    width: 75%;
+  }
+}
+
 .carousel_arrow {
   position: absolute;
   top: 50%;

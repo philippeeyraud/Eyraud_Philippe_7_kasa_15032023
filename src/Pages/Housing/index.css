@@ -12,6 +12,8 @@
   .housing_box {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-AR;
+    margin-left: 12%;
   }
 }
 
@@ -38,9 +40,9 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 34%;
+    top: 58%;
     left: 73%;
-    right: 6%;
+    right: 12%;
   }
 }
 

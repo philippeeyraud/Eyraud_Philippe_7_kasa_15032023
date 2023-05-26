@@ -4,9 +4,7 @@
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     margin: 0 auto;
-     @media screen and (max-width: 700px) {
 
-    }
 
     &_title {
         justify-content: space-between;
@@ -17,16 +15,20 @@
         font-weight: 500;
         padding: 10px 15px;
         cursor: pointer;
-
+ @media screen and (max-width: 700px) {
+     padding: 8px 13px;
+ }
         .arrow_up {
             transition: all 0.3s ease-in-out;
             transform: rotate(0deg);
+          
         }
 
         .arrow_down {
             transition: all 0.3s ease-in-out;
             transform: rotate(180deg);
         }
+       
     }
     &_text {
         visibility: visible;
