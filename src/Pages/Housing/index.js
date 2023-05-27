@@ -40,17 +40,6 @@ function Housing() {
             </div>
           </div>
           <div className="alignc">
-            <div className="housing_box_text_host">
-              <div className="housing_box_text_host_name">
-                <span>{name[0]}</span>
-                <span>{name[1]}</span>
-              </div>
-              <img
-                className="picture"
-                src={DataHousing[0].host.picture}
-                alt="host "
-              />
-            </div>
             <div className="align">
               {[...Array(5)].map((star, item) => {
                 const ratingValue = item + 1;
@@ -64,13 +53,24 @@ function Housing() {
                 );
               })}
             </div>
+            <div className="housing_box_text_host">
+              <div className="housing_box_text_host_name">
+                <span>{name[0]}</span>
+                <span>{name[1]}</span>
+              </div>
+              <img
+                className="picture"
+                src={DataHousing[0].host.picture}
+                alt="host "
+              />
+            </div>
           </div>
         </div>
         <div className="housing_box_text_host_breakdown">
           <div className="housing_box_text_host_breakdown_item">
             <Collapse title={"Description"} text={description} />
           </div>
-          
+
           <div className="housing_box_text_host_breakdown_item">
             <Collapse title={"Equipements"} text={equipments} />
           </div>

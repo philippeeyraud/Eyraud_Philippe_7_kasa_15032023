@@ -16,8 +16,12 @@
       align-items: flex-start;
       justify-content: space-AR;
       margin-left: 12%;
+        max-width: 75%;
     }
-
+     @media screen and (max-width: 500px) {
+      max-width: 76%;
+      margin-left: 12%;
+     }
     &_text {
       display: flex;
       flex-direction: column;
@@ -31,17 +35,14 @@
         gap: 10px;
         justify-content: flex-end;
         align-items: center;
-        position: relative;
-        bottom: 40px;
+      
         @media screen and (max-width: 700px) {
           display: flex;
           flex-direction: row;
-          position: absolute;
-          top:58%;
-          left: 73%;
-          right: 12%;
+         
         }
-
+ @media screen and (max-width: 560px) {
+        top:73%;}
         &_name {
           display: flex;
           flex-direction: column;
@@ -59,6 +60,8 @@
           @media screen and (max-width: 700px) {
             flex-direction: column;
             gap: 0%;
+             width: 76%;
+             margin-left: 12%;
           }
           &_item {
             width: 49%;
