@@ -27,6 +27,7 @@
 @media screen and (max-width: 700px) {
   .housing_box .display {
     flex-direction: row;
+    gap: 80%;
   }
 }
 
