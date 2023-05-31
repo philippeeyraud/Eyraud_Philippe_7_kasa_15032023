@@ -39,20 +39,22 @@ function Housing() {
               })}
             </div>
           </div>
-          <div className="alignc">
-            <div className="align">
-              {[...Array(5)].map((star, item) => {
-                const ratingValue = item + 1;
-                return (
-                  <img
-                    className="stars"
-                    key={item}
-                    src={ratingValue <= rating ? staractive : starinactive}
-                    alt="star"
-                  />
-                );
-              })}
-            </div>
+          <div className="display">
+            <div className="alignc">
+              <div className="align">
+                {[...Array(5)].map((star, item) => {
+                  const ratingValue = item + 1;
+                  return (
+                    <img
+                      className="stars"
+                      key={item}
+                      src={ratingValue <= rating ? staractive : starinactive}
+                      alt="star"
+                    />
+                  );
+                })}
+              </div>
+            </div >
             <div className="housing_box_text_host">
               <div className="housing_box_text_host_name">
                 <span>{name[0]}</span>
