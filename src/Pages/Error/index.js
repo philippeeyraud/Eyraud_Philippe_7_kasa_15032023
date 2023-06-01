@@ -11,14 +11,14 @@ function Error() {
         <Header />
         <div className="errorpage">
           <div className="errorpage_news">
-            <h1>
-              <img src={Four} alt="error" />
-            </h1>
+            <h2>
+             404
+            </h2>
             <p className= "texterror">
-              Oups!La page que vous demandez n'existe pas.
+              Oups! La page que vous demandez n'existe pas.
             </p>
-            <Link className="returnAccueil mt-30" to="/">
-              <img src={RetourAccueil} alt="text retour" />
+            <Link className="returnaccueil" to="/">
+              Retourner sur la page d'accueil
             </Link>
           </div>
         </div>

@@ -10,15 +10,39 @@
     align-items: center;
     position: relative;
     top: 150px;
-      font-size: 50px;
-  }
-
-  }
-  .texterror {
-    margin-top: 30px;
-  font-size: 30px;
-margin-left: 50px;
-font-weight: 500;}
-  .returnAccueil {
+    font-size: 50px;
+    return {
       margin-top: 100px;
     }
+  }
+  h2 {
+    font-size: 200px;
+     @media screen and (min-width: 550px) and (max-width: 700px) {
+     font-size: 130px;
+    }
+    @media screen and (min-width: 250px) and (max-width: 549px) {
+     font-size: 100px;
+    }
+  }
+ 
+}
+
+.texterror {
+  margin-top: 50px;
+  font-size: 30px;
+  margin-left: 50px;
+  font-weight: 500;
+  @media screen and (max-width: 700px) {
+   font-size: 20px;
+     margin-top: 20px;
+  }
+}
+.returnaccueil {
+  margin-top: 150px;
+  text-decoration: underline;
+  font-size: 15px;
+   @media screen and (max-width: 700px) {
+    margin-top: 200px;
+  }
+
+}
