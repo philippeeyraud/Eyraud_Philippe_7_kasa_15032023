@@ -24,10 +24,61 @@
   margin-bottom: 2%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 651px) and (max-width: 700px) {
   .housing_box .display {
     flex-direction: row;
-    gap: 80%;
+    gap: 78%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 650px) {
+  .housing_box .display {
+    flex-direction: row;
+    gap: 68%;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 599px) {
+  .housing_box .display {
+    flex-direction: row;
+    gap: 55%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 549px) {
+  .housing_box .display {
+    flex-direction: row;
+    gap: 43%;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 499px) {
+  .housing_box .display {
+    flex-direction: row;
+    gap: 25%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 449px) {
+  .housing_box .display {
+    flex-direction: row;
+    gap: 20%;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .housing_box .display {
+    flex-direction: row;
+    gap: 30%;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 349px) {
+  .housing_box .display {
+    flex-direction: row;
+    gap: 4%;
+    align-items: center;
   }
 }
 
@@ -48,6 +99,13 @@
   padding-bottom: 30px;
 }
 
+@media screen and (min-width: 250px) and (max-width: 399px) {
+  .housing_box_text_host {
+    gap: 10px;
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .housing_box_text_host {
     display: flex;
@@ -61,7 +119,14 @@
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-right: 20px;
+  margin-right: 0px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 399px) {
+  .housing_box_text_host_name {
+    flex-direction: row;
+    margin-right: 0px;
+  }
 }
 
 .housing_box_text_host_breakdown {
@@ -101,6 +166,13 @@
   border-radius: 50%;
 }
 
+@media screen and (min-width: 250px) and (max-width: 349px) {
+  .picture {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 button {
   display: inline;
   padding: 5px 15px;
@@ -112,6 +184,12 @@ button {
   background-color: var(--title-1);
 }
 
+@media screen and (min-width: 250px) and (max-width: 399px) {
+  button {
+    font-size: 10px;
+  }
+}
+
 button:hover {
   box-shadow: 0 2px 8px black;
 }
@@ -120,6 +198,24 @@ button:hover {
   width: 30px;
 }
 
+@media screen and (min-width: 250px) and (max-width: 400px) {
+  .stars {
+    width: 20px;
+  }
+}
+
 h1 {
   line-height: 51px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 349px) {
+  h1 {
+    font-size: 23px;
+  }
 }

@@ -22,14 +22,42 @@
       display: flex;
       flex-direction: column-reverse;
       margin-bottom: 2%;
-      @media screen and (max-width: 700px) {
+      @media screen and (min-width: 651px) and (max-width: 700px) {
         flex-direction: row;
-        gap:80%;
+        gap: 78%;
+      }
+      @media screen and (min-width: 600px) and (max-width: 650px) {
+        flex-direction: row;
+        gap: 68%;
+      }
+      @media screen and (min-width: 551px) and (max-width: 599px) {
+        flex-direction: row;
+        gap: 55%;
+      }
+      @media screen and (min-width: 500px) and (max-width: 549px) {
+        flex-direction: row;
+        gap: 43%;
+      }
+      @media screen and (min-width: 450px) and (max-width: 499px) {
+        flex-direction: row;
+        gap: 25%;
+      }
+      @media screen and (min-width: 400px) and (max-width: 449px) {
+        flex-direction: row;
+        gap: 20%;
+      }
+      @media screen and (min-width: 350px) and (max-width: 399px) {
+        flex-direction: row;
+        gap: 30%;
+        align-items: center;
+      }
+      @media screen and (min-width: 250px) and (max-width: 349px) {
+        flex-direction: row;
+        gap: 4%;
+        align-items: center;
       }
     }
 
-    @media screen and (max-width: 500px) {
-    }
     &_text {
       display: flex;
       flex-direction: column;
@@ -44,6 +72,10 @@
         justify-content: flex-end;
         align-items: center;
         padding-bottom: 30px;
+        @media screen and (min-width: 250px) and (max-width: 399px) {
+          gap: 10px;
+          font-size: 12px;
+        }
 
         @media screen and (max-width: 700px) {
           display: flex;
@@ -57,7 +89,11 @@
           flex-direction: column;
           align-items: flex-start;
           flex-wrap: wrap;
-          margin-right: 20px;
+          margin-right: 0px;
+          @media screen and (min-width: 250px) and (max-width: 399px) {
+            flex-direction: row;
+            margin-right: 0px;
+          }
         }
 
         &_breakdown {
@@ -93,6 +129,9 @@
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
+  @media screen and (min-width: 250px) and (max-width: 349px) {width: 40px;
+  height: 40px;
+}
 }
 
 button {
@@ -104,6 +143,10 @@ button {
   border: none;
   color: var(--gray-1);
   background-color: var(--title-1);
+   @media screen and (min-width: 250px) and (max-width: 399px) {
+        
+          font-size: 10px;
+        }
 
   &:hover {
     box-shadow: 0 2px 8px rgb(0, 0, 0);
@@ -112,7 +155,16 @@ button {
 
 .stars {
   width: 30px;
+  @media screen and (min-width: 250px) and (max-width: 400px) {
+    width: 20px;
+  }
 }
 h1 {
   line-height: 51px;
+   @media screen and (min-width: 350px) and (max-width: 700px) {
+    font-size: 30px;
+}
+   @media screen and (min-width: 250px) and (max-width: 349px) {
+    font-size: 23px;
+}
 }

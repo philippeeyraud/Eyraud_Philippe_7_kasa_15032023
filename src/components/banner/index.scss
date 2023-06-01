@@ -25,9 +25,31 @@
     color: #f7f7f7;
     font-size: 35px;
     font-weight: 500;
+    @media screen and (min-width: 551px) and (max-width: 700px) {
+      line-height: 24px;
+      font-size: 25px;
+      width: 235px;
+    }
 
-    @media screen and (max-width: 700px) {
-            width: 60%;
+    @media screen and (min-width: 500px) and (max-width: 550px) {
+      line-height: 24px;
+      font-size: 25px;
+      width: 235px;
+    }
+    @media screen and (min-width: 400px) and (max-width: 499px) {
+      line-height: 24px;
+      font-size: 25px;
+      width: 230px;
+    }
+    @media screen and (min-width: 300px) and (max-width: 399px) {
+      line-height: 24px;
+      font-size: 18px;
+      width: 168px;
+    }
+       @media screen and (min-width: 200px) and (max-width: 299px) {
+      line-height: 24px;
+      font-size: 15px;
+      width: 140px;
     }
   }
 }
