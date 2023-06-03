@@ -2,7 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
   border-radius: 30px;
   background-size: cover;
 }
@@ -34,7 +37,7 @@
   .banner_text {
     line-height: 24px;
     font-size: 25px;
-    width: 235px;
+    width: 160px;
   }
 }
 
@@ -42,7 +45,7 @@
   .banner_text {
     line-height: 24px;
     font-size: 25px;
-    width: 235px;
+    width: 220px;
   }
 }
 
@@ -58,7 +61,7 @@
   .banner_text {
     line-height: 24px;
     font-size: 18px;
-    width: 168px;
+    width: 50px;
   }
 }
 
@@ -66,6 +69,6 @@
   .banner_text {
     line-height: 24px;
     font-size: 15px;
-    width: 140px;
+    width: 20px;
   }
 }

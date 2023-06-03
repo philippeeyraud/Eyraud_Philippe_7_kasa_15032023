@@ -27,49 +27,49 @@
 @media screen and (min-width: 651px) and (max-width: 700px) {
   .housing_box .display {
     flex-direction: row;
-    gap: 78%;
+    gap: 95%;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 650px) {
   .housing_box .display {
     flex-direction: row;
-    gap: 68%;
+    gap: 80%;
   }
 }
 
 @media screen and (min-width: 551px) and (max-width: 599px) {
   .housing_box .display {
     flex-direction: row;
-    gap: 55%;
+    gap: 65%;
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 549px) {
   .housing_box .display {
     flex-direction: row;
-    gap: 43%;
+    gap: 45%;
   }
 }
 
 @media screen and (min-width: 450px) and (max-width: 499px) {
   .housing_box .display {
     flex-direction: row;
-    gap: 25%;
+    gap: 30%;
   }
 }
 
 @media screen and (min-width: 400px) and (max-width: 449px) {
   .housing_box .display {
     flex-direction: row;
-    gap: 20%;
+    gap: 25%;
   }
 }
 
 @media screen and (min-width: 350px) and (max-width: 399px) {
   .housing_box .display {
     flex-direction: row;
-    gap: 30%;
+    gap: 40%;
     align-items: center;
   }
 }
@@ -77,7 +77,7 @@
 @media screen and (min-width: 250px) and (max-width: 349px) {
   .housing_box .display {
     flex-direction: row;
-    gap: 4%;
+    gap: 25%;
     align-items: center;
   }
 }
