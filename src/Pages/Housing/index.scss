@@ -129,9 +129,10 @@
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
-  @media screen and (min-width: 250px) and (max-width: 349px) {width: 40px;
-  height: 40px;
-}
+  @media screen and (min-width: 250px) and (max-width: 349px) {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 button {
@@ -143,10 +144,9 @@ button {
   border: none;
   color: var(--gray-1);
   background-color: var(--title-1);
-   @media screen and (min-width: 250px) and (max-width: 399px) {
-        
-          font-size: 10px;
-        }
+  @media screen and (min-width: 250px) and (max-width: 399px) {
+    font-size: 10px;
+  }
 
   &:hover {
     box-shadow: 0 2px 8px rgb(0, 0, 0);
@@ -161,10 +161,10 @@ button {
 }
 h1 {
   line-height: 51px;
-   @media screen and (min-width: 350px) and (max-width: 700px) {
+  @media screen and (min-width: 350px) and (max-width: 700px) {
     font-size: 30px;
-}
-   @media screen and (min-width: 250px) and (max-width: 349px) {
+  }
+  @media screen and (min-width: 250px) and (max-width: 349px) {
     font-size: 23px;
-}
+  }
 }
