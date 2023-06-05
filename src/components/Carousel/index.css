@@ -37,7 +37,7 @@
   color: #f7f7f7;
 }
 
-@media screen and (max-width: 911px) {
+@media screen and (max-width: 913px) {
   .carousel .slideCount {
     color: transparent;
   }
