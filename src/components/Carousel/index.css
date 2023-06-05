@@ -36,3 +36,9 @@
   left: 50%;
   color: #f7f7f7;
 }
+
+@media screen and (max-width: 820px) {
+  .carousel .slideCount {
+    color: transparent;
+  }
+}
