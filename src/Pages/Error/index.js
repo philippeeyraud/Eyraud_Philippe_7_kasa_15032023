@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 import Header from "../../components/Header";
 import { Link } from "react-router-dom";
 import "./index.scss";
+=======
+import Header from '../../components/Header'
+import {Link }from 'react-router-dom'
+import './index.scss'
+
+
+>>>>>>> d45fcb3c6a914931fb56d4d41f6cc5651ba43cae
 
 function Error() {
   return (

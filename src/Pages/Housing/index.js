@@ -6,7 +6,6 @@ import { useParams } from "react-router-dom";
 import list from "../../Data/index";
 import Collapse from "../../components/Collapse/index";
 import "./index.scss";
-
 import staractive from "../../assets/staractive .png";
 import starinactive from "../../assets/starinactive .png";
 

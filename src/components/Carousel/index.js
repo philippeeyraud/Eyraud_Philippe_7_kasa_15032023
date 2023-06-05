@@ -1,6 +1,6 @@
 import './index.scss'
 import ArrowForward from "../../assets/arrow_forward_ios-24px .png";
-import ArrowBack from "../../assets/arrow_back_ios-24px 1 (1).png";
+import ArrowBack from "../../assets/arrow_back_ios-24px .png";
 import {useState} from 'react'
 
 function Slide({ imageSlide }) {

@@ -1,6 +1,6 @@
 import "../../components/Footer/index.scss";
 import logo from "../../assets/logoF.png";
-import Logo from "../../assets/© 2020 Kasa. All rights reserved.png";
+import Logo from "../../assets/logoFooter.png";
 
 function Footer() {
   return (
